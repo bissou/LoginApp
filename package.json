@@ -1,0 +1,28 @@
+{
+	"name": "loginApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"express": "^4.15.3",
+		"express-backend": "^1.0.0",
+		"mysql": "^2.14.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.46.4",
+		"react-native-deprecated-custom-components": "^0.1.1",
+		"react-native-meteor": "^1.1.0",
+		"skeleton": "^0.1.2"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
